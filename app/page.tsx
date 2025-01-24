@@ -20,7 +20,7 @@ export default function Home() {
       <main className="container mx-auto flex flex-col items-center text-center mt-12 px-4 flex-grow">
         <h2 className="text-4xl font-bold text-gray-800">Hi, I’m Zufar Athoya Bahar</h2>
         <p className="text-lg text-gray-600 mt-4">A passionate developer with experience in building web applications and mobile apps. I specialize in Django and mobile development, aiming to create solutions that help improve user experience and efficiency.</p>
-
+git push -u origin maio
         <div className="flex space-x-4 mt-6">
           <Link href="/about">
             <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">About Me</button>
@@ -54,8 +54,8 @@ export default function Home() {
             <div className="bg-white shadow-md rounded-lg p-4">
               <Image src="/image/counting.jpg" alt="Project 3" className="rounded-md" width={800} height={200} />
               <h4 className="text-gray-600 text-lg font-semibold mt-4">Project 3: People Counting</h4>
-              <p className="text-sm text-gray-600 mt-2">Create a model to calculate the number of people in a room..</p>
-              <p className="text-sm text-gray-600 mt-2">Technologies: Python, OpenCV</p>
+              <p className="text-sm text-gray-600 mt-2">Create a model to calculate the number of people in a room.</p>
+              <p className="text-sm text-gray-600 mt-2">Technologies: Python, OpenCV, Machine Learning</p>
             </div>
 
           </div>
